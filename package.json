@@ -1,0 +1,23 @@
+{
+  "name": "touchstone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "试金石-SiCAP单元测试代码编写辅助工具",
+  "dependencies": {
+    "argparse": "^2.0.1",
+    "cheerio": "^1.0.0-rc.3",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.211.79/dingyf/touchstone.git"
+  }
+}
