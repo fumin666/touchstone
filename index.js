@@ -35,6 +35,7 @@ function getTemplateData(_configContent) {
     let props = {}
     Object.keys(vueObject.props).forEach((item) => {
       if (!vueObject.props[item].type) {
+        console.log(vueObject.props[item]);
         props[item] = checkValue(vueObject.props[item]());
       } else {
         props[item] = checkValue(vueObject.props[item].type());
